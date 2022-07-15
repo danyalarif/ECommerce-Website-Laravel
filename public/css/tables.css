@@ -1,0 +1,4 @@
+/* bootstrap's table-borderless was not working */
+.table-borderless td, .table-borderless th {
+    border: none;
+}

@@ -1,0 +1,31 @@
+
+@import url('../css/themes.css');
+@import url('../css/navbar.css');
+@import url('../css/footer.css');
+@import url('../css/forms.css');
+
+.input-date-container input{
+    display: inline-block;
+    padding: 0.5rem .8rem;
+    border: 1px solid var(--backgroundTernary);
+    border-radius: 5px;
+    outline-color: var(--backgroundSecondary);
+}
+.input-date-container label{
+    display: inline-block;
+}
+.credit-card-header span{
+    font-size: 2rem;
+    color: var(--backgroundSecondary);
+    padding-left: 2rem;
+}
+.credit-card-header{
+    margin-bottom: 1rem;
+}
+.card-inputs-container > div{
+    margin-bottom: 1rem;
+}
+
+.input-form p{
+    color: var(--backgroundSecondary);
+}

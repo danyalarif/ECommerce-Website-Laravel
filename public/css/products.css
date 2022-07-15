@@ -1,0 +1,106 @@
+@import url('../css/themes.css');
+@import url('../css/navbar.css');
+@import url('../css/footer.css');
+
+.square-button{
+    background-color: #fafafa;
+    border: none;
+    outline: none;
+    padding: 0.1rem 0.3rem;
+    font-size: 1.5rem;
+    border: 1px solid silver;
+    border-radius: 15px;
+}
+.square-span{
+    display: inline-block;
+    background-color: #fafafa;
+    border: none;
+    outline: none;
+    padding: 0.1rem 1.5rem;
+    font-size: 1.5rem;
+    border: 1px solid silver;
+    border-radius: 15px;
+}
+.square-button:hover{
+    background-color: #ebe4e4;
+    cursor: pointer;
+}
+a.primary{
+    color: var(--backgroundSecondary);
+}
+.bc-icons-2 .breadcrumb-item + .breadcrumb-item::before {
+    content: none;
+} 
+.breadcrumb-item.active{
+    color: var(--textColor);
+}
+.image-container img{
+    display: block;
+    height: 300px;
+    width: 100%;
+}
+.product-name{
+    font-size: 1.7rem;
+}
+.product-price-container{
+    color: var(--backgroundSecondary);
+    font-size: 1.5rem;
+    margin-top: 1rem;
+}
+.product-price-container span{
+    font-size: inherit;
+}
+
+.form-footer{
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+}
+.form-footer button{
+    width: 48%;
+}
+.flex-button{
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;
+}
+.custom-button-secondary{
+    background-color: var(--background);
+    color: var(--backgroundSecondary);
+    border-radius: 5px;
+}
+button.custom-button-secondary:hover{
+    background-color: #fff1e6;
+}
+.mu-icon{
+    height: 1.25rem;
+    fill: var(--background);
+}
+.delivery-div{
+    border-left: 1px solid var(--backgroundTernary);
+}
+.delivery-container, .store-container{
+    display: flex;
+    justify-content: space-between;
+}
+.red-border{
+    border: 4px solid var(--backgroundSecondary);
+    background-color: var(--backgroundSecondary);
+    margin-right: 0.5rem;
+}
+.heading-row{
+    border-bottom: 1px solid var(--backgroundTernary);
+    padding: .5rem 0;
+}
+.specifications-container-parent{
+    margin-top: .5rem;
+}
+.specifications-container-parent span{
+    display: block;
+}
+.specifications-container-parent span.primary{
+    font-weight: bold;
+}
+.specifications-container-parent > div{
+    margin-bottom: .5rem;
+}

@@ -1,0 +1,39 @@
+@import url('../css/themes.css');
+@import url('../css/navbar.css');
+@import url('../css/footer.css');
+@import url('../css/forms.css');
+
+/*********************************************LOGIN*********************************/
+
+
+.login-button-container{
+    display: flex;
+    justify-content: center;
+    margin-bottom: 1rem;
+}
+.login-button-container button{
+    width: 40%;
+    border-radius: 5px;
+    padding: 0.3rem 0;
+}
+.login-footer{
+    display: flex;
+    justify-content: space-between;
+    width: 90%;
+    padding-bottom: 1rem;
+}
+.login-footer a{
+    color: var(--backgroundSecondary);
+}
+
+.server-error-container p{
+    color: var(--backgroundSecondary);
+    margin-bottom: 0;
+    margin-top: 1rem;
+}
+
+@media screen and (max-width: 576px) {
+    .login-footer{
+        display: block;
+    }
+}

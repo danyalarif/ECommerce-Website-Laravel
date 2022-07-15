@@ -1,0 +1,50 @@
+
+
+.gradient-1{
+    background-image: linear-gradient(230deg, #759bff, #843cf6); }
+  
+.gradient-2{
+    background-image: linear-gradient(230deg, #fc5286, #fbaaa2); }
+  
+.gradient-3{
+    background-image: linear-gradient(230deg, #ffc480, #ff763b); }
+  
+.gradient-4{
+        background-image: linear-gradient(230deg, #0e4cfd, #6a8eff); 
+    }
+
+.status-card{
+        border-radius: 10px;
+        margin-bottom: 10px;
+        margin-top: 10px;
+}
+.status-card .status-heading{
+    font-size: 18px;
+}
+
+.status-card:hover .product-icon{
+    opacity: 1.0;
+}
+.status-card:hover{
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+}
+.product-icon{
+    opacity: 0.75;
+    color: whitesmoke;
+}
+
+.chart-wrapper{
+    position:relative;
+    background-color: white;
+    border-radius: 3%;
+}
+.chart-title{
+    position:absolute;
+    top: 6%;
+    left: 10%;
+}
+
+.avatar{
+    width: 50%;
+    height: auto;
+}

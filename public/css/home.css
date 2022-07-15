@@ -1,0 +1,117 @@
+@import url('../css/themes.css');
+@import url('../css/navbar.css');
+@import url('../css/footer.css');
+
+/************************PRODUCT********************************/
+.product-body a{
+    color: var(--textColor);
+    text-decoration: none;
+}
+.countdown-container{
+    margin-bottom: .5rem;
+}
+.countdown-border{
+    border: 5px solid var(--backgroundSecondary);
+    background-color: var(--backgroundSecondary);
+    margin-right: .5rem;
+}
+.countdown-heading{
+    margin-right: .5rem;
+}
+.countdown-container span{
+    font-size: 1.5rem;
+    color: var(--backgroundSecondary);
+}
+.product-container{
+    background-color: var(--background);
+    border-radius: 5px;
+    box-shadow: 0px 2px 1px -1px rgb(0 0 0 / 20%), 0px 1px 1px 0px rgb(0 0 0 / 14%), 0px 1px 3px 0px rgb(0 0 0 / 12%);
+    display: flex;
+    justify-content: center;
+    margin-right: .7rem;
+    margin-bottom: 1rem;
+    min-width: 250px;
+}
+.product-container:hover{
+    cursor: pointer;
+    box-shadow: 0px 3px 5px -1px rgb(0 0 0 / 20%), 0px 6px 10px 0px rgb(0 0 0 / 14%), 0px 1px 18px 0px rgb(0 0 0 / 12%);
+}
+.product{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    width: 90%;
+}
+.product-body{
+    width: 100%;
+}
+.product-image-container{
+    margin: 0.2rem 0;
+}
+.product img{
+    height: 200px;
+    display: block;
+    width: 100%;
+}
+.product-category-container{
+    display: flex;
+    justify-content: flex-start;
+}
+.product-category{
+    font-size: 0.8rem;
+    font-weight: lighter;
+    cursor: pointer;
+}
+.product-name-container{
+    display: flex;
+    justify-content: flex-start;
+}
+.product-name{
+    cursor: pointer;
+}
+.product-price-container{
+    display: flex;
+    justify-content: flex-start;
+    color: var(--backgroundSecondary);
+}
+.mu-icon{
+    height: 1.25rem;
+    fill: var(--backgroundSecondary);
+}
+.product-footer-container{
+    color: var(--backgroundSecondary);
+    display: flex;
+    justify-content: space-between;
+}
+.product-footer-container > div{
+    display: flex;
+    align-items: center;
+    cursor: pointer;
+    -webkit-transition: transform 200ms ease-in-out;
+    transition: transform 200ms ease-in-out;
+}
+.product-footer-container > div:hover{
+    background-color: var(--backgroundQuaternary);
+}
+.product-body > div{
+    margin: 0.1rem 0;
+}
+.product .product-footer-container{
+    margin: .3rem 0;
+}
+.product-footer-container span{
+    font-size: 0.8rem;
+}
+.rotate {
+    -ms-transform: rotate(360deg);
+    -webkit-transform: rotate(360deg);
+    transform: rotate(360deg);
+  }
+@media screen and (max-width: 575px) {
+    #logo-img{
+        content: url('../images/logo-Mobile.png');
+    }
+    .header-categories-button{
+        display: none;
+    }
+}

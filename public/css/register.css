@@ -1,0 +1,22 @@
+@import url('../css/themes.css');
+@import url('../css/navbar.css');
+@import url('../css/footer.css');
+@import url('../css/forms.css');
+
+
+.form-footer{
+    width: 100%;
+    display: flex;
+    justify-content: space-around;
+}
+.form-footer button{
+    width: 40%;
+}
+
+
+.server-error-container p{
+    color: var(--backgroundSecondary);
+    margin-bottom: 0;
+    margin-top: 1rem;
+}
+

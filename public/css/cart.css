@@ -1,0 +1,108 @@
+@import url('../css/themes.css');
+@import url('../css/navbar.css');
+@import url('../css/footer.css');
+
+
+.cart-header-row{
+    padding: .8rem 0;
+    align-items: center;
+}
+.red-border{
+    border: 2px solid var(--backgroundSecondary);
+    background-color: var(--backgroundSecondary);
+    margin-right: 0.5rem;
+}
+.cart-header-container span{
+    font-size: 1.2rem;
+    font-weight: bold;
+}
+.cart-items-no-container span{
+    color: var(--backgroundSecondary);
+}
+.item-header{
+    border-bottom: 1px solid var(--backgroundTernary);
+}
+.item-header span{
+    display: block;
+}
+.product-title{
+    font-weight: bold;
+    font-size: 1.3rem;
+}
+.product-category, .product-sub-category{
+    font-size: .9rem;
+}
+.image-container img{
+    height: 100px;
+    display: block;
+}
+.product-data-container span{
+    color: var(--backgroundSecondary);
+    font-size: 1.2rem;
+}
+.fee-container span{
+    font-size: 0.9rem;
+    color: var(--textColor);
+}
+.summary-container-parent{
+    background-color: var(--backgroundSecondary);
+    color: var(--textColorSecondary);
+    width: 35%;
+    justify-content: center;
+    border-radius: 15px;
+    box-shadow: 0px 3px 5px -1px rgb(0 0 0 / 20%), 0px 6px 10px 0px rgb(0 0 0 / 14%), 0px 1px 18px 0px rgb(0 0 0 / 12%);
+
+}
+.summary-container{
+    width: 90%;
+}
+.summary-header{
+    border-bottom: 1px solid var(--textColorSecondary);
+    margin-bottom: .2rem;
+    width: 100%;
+}
+.summary-header span{
+    display: block;
+    margin-left: 0.8rem;
+    font-size: 1.5rem;
+    padding: .5rem 0;
+}
+#summary-p{
+    display: flex;
+    justify-content: center;
+}
+.summary-container span{
+    font-size: 1.3rem;
+}
+span.price{
+    text-shadow:
+    0 0 7px #fff,
+    0 0 10px #fff,
+    0 0 21px #fff;
+}
+.summary-row{
+    padding: 0.3rem 0;
+}
+.total-price-container span{
+    font-size: 1.4rem;
+}
+.button-container{
+    margin-top: 2rem;
+}
+.items-container{
+    padding-top: 1rem;
+    padding-bottom: 1rem;
+}
+.item-container{
+    background-color: var(--background);
+    margin-bottom: 1rem;
+}
+.product-image-div{
+    margin: 0.5rem 0;
+}
+
+@media screen and (max-width: 992px) {
+    .summary-container-parent{
+        width: 60%;
+    } 
+}

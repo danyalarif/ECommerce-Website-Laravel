@@ -1,0 +1,28 @@
+@import url(themes.css);
+
+
+.validity + .error{
+    display: none;
+}
+
+.validity:focus + .error{
+    display: block;
+}
+
+.invalid {
+    border-color: var(--invalidColor) !important;
+}
+
+.invalid + .error {
+    color: var(--invalidColor) !important;
+    display: none;
+}
+
+.valid{
+    border-color: var(--validColor) !important;
+}
+
+.valid + .error{
+    color: var(--validColor) !important;
+    display: none;
+}

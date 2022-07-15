@@ -1,0 +1,19 @@
+/***************************FOOTER******************************/
+.footer-container{
+    margin-top: 3rem;
+    background-color: var(--backgroundSecondaryLight);
+    color: white;
+}
+.custom-field{
+    border: 1px solid var(--backgroundTernary);
+    padding-left: 0.4rem;
+}
+.footer-container a{
+    color: var(--textColorSecondary);
+}
+.footer-copyright-container{
+    background-color: var(--backgroundSecondaryDark);
+    width: 100%;
+    padding: 0.5rem 0;
+    font-size: 1.3rem;
+}

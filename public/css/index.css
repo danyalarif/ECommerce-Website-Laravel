@@ -1,0 +1,42 @@
+@import url('https://fonts.googleapis.com/css?family=Raleway');
+@import url('../css/themes.css');
+body {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    background-color: var(--backgroundSecondaryLight);
+}
+
+.head {
+    margin: 1rem 0;
+    text-align: center;
+}
+
+.heading {
+    color: var(--textColorSecondary);
+    text-shadow: 0 0 27px #fff, 0 0 18px #fff, 0 0 27px #fff;
+    font-size: 4rem;
+    font-style: italic;
+}
+
+.links {
+    text-align: center;
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    align-items: center;
+}
+.fa{
+    font-size: 1rem !important;
+    margin-right: .3rem;
+}
+.menu-button{
+    font-size: 1.5rem;
+    border-radius: 40px;
+    background-color: var(--textColorSecondary);
+    color: var(--textColor);
+    display: flex;
+    align-items: center;
+    margin-bottom: 1rem;
+}
